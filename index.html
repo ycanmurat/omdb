@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Jquery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<!--                          Fonts                         -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap" rel="stylesheet">
+
+	<!-- Less -->
+	<script src="js/less.min.js" data-env="development"></script>
+	<!--                  Font Awesome                    -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<script>
+		less = {
+			env: "development"
+		};
+	</script>
+	
+	<link href="images/favicon.png" rel="shortcut icon">
+	<title>Murat Can ❤️</title>
+</head>
+<body>
+
+	<section class="main-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-12 m-auto">
+					<div class="input-area">
+						<span class="clear"><i class="fas fa-times"></i></span>
+						<input type="text" name="search-movie" id="get-movie" placeholder="Bulmak istediğiniz filmin adını yazınız">
+						<button><img src="images/search.svg"></button>
+					</div>
+					<div class="result-area"></div>
+					<div class="more ">DAHA FAZLA SONUÇ</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<button class="scrollTop">
+		<i class="fas fa-sort-up"></i>
+	</button>
+
+	<script src="dist/bundle.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
